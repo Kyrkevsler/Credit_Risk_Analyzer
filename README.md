@@ -27,6 +27,7 @@ predictor.preprocess_data()
 predictor.train_model('random_forest')  # or 'logistic_regression'
 
 # Predict for a sample loan
+```python
 example_loan = {
     'credit_lines_outstanding': 2,
     'loan_amt_outstanding': 5000,
@@ -35,7 +36,7 @@ example_loan = {
     'years_employed': 3,
     'fico_score': 650
 }
-
+```
 ## Model Evaluation Results
 
 ### Classification Report
