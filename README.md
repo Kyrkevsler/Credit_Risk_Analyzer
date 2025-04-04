@@ -43,18 +43,14 @@ example_loan = {
 
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
-| 0     | 0.92      | 0.90   | 0.95     | 1600    |
-| 1     | 0.85      | 0.58   | 0.69     | 400     |
+| 0     | 1.00      | 1.00   | 1.00     | 1630    |
+| 1     | 0.99      | 0.99   | 0.99     | 370     |
 
-**Overall Accuracy**: 0.91 (2000 samples)
-
-**Averages**:
-- Macro Avg: Precision=0.88, Recall=0.78, F1-Score=0.82
-- Weighted Avg: Precision=0.91, Recall=0.91, F1-Score=0.90
+(2000 samples)
 
 ### ROC AUC Score
-**0.9437**
+**0.9998**
 
 ### Risk Prediction
-- **Probability of default**: 18.35%
-- **Expected loss**: $825.68
+- **Probability of default**: 22.00%
+- **Expected loss**: $990.00
